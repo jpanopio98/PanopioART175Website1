@@ -1,0 +1,188 @@
+body{
+	background-color: #C54A4B;
+}
+
+/*Landing Page */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Oswald', sans-serif;
+ 
+}
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  
+ 
+  transform: scale(1.1); 
+}
+li.grow {
+ transition: all .2s ease-in-out; 
+}
+
+h1{
+	color: white;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#main-page-example{
+	display: flex;
+	justify-content: center;
+	padding-top: 150px;
+
+}
+
+#mask-page-example{
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+
+
+/* About Page */
+
+h1{
+	font-size: 60px;
+}
+
+.info{
+	font-family: 'Lato', sans-serif;
+	color: #302C2D;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+hr{
+	width: 800px;
+	color: black;
+}
+
+
+
+/*Downloads Page */
+
+.app-store-buttons{
+	display: flex;
+	justify-content: center;
+	padding-top: : 220px;
+}
+.app-icon{
+	display: flex;
+	justify-content: center;
+
+}
+
+/*Features */
+
+.app-images{
+	display: flex;
+	justify-content: center;
+
+}
+
+#main-page{
+	padding: 20px;
+}
+
+#profile-page{
+	padding: 20px;
+}
+
+#mask-page{
+	padding: 20px;
+}
+
+#settings-page{
+	padding: 20px;
+}
+
+
+#page-border{
+	border: 0px;
+	height: 0px;
+	border-top: 1px solid white;
+	width: 1000px;
+}
+#features-info{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #302C2D;
+}
+
+#features-list{
+	display: flex;
+	flex-direction: column; 
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: white;
+}
+#main-tag{
+	font-size: 30px;
+	padding: 20px;
+}
+
+#profile-tag{
+	font-size: 30px;
+	padding: 20px;
+}
+
+#mask-tag{
+	font-size: 30px;
+	padding: 20px;
+}
+
+#setting-tag{
+	font-size: 30px;
+	padding: 20px;
+}
+
+/* Contact Page */
+
+.form-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+#signup-form{
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	flex-direction: column;
+	width: 25%;
+	padding-left: 550px;
+
+}
+#signup-button{
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	flex-direction: column;
+	width: 25%;
+	margin-top: 20px;
+
+}
