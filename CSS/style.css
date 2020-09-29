@@ -81,6 +81,7 @@ h1{
 hr{
 	width: 800px;
 	color: black;
+
 }
 
 
@@ -88,7 +89,7 @@ hr{
 /*Downloads Page */
 
 
-.phone-icon{
+.store-icon{
 	display: flex;
 	justify-content: center;
 }
@@ -116,13 +117,11 @@ hr{
 }
 
 
-
-
-.app-icon{
+.icon{
 	display: flex;
 	justify-content: center;
-
 }
+
 
 /*Features */
 
@@ -171,6 +170,8 @@ hr{
 	text-align: center;
 	color: white;
 }
+
+
 #main-tag{
 	font-size: 30px;
 	padding: 20px;
@@ -195,6 +196,9 @@ hr{
 	color: #302C2D; 
 }
 
+
+
+
 .page-descrip{
 	justify-content: center;
 	display: flex;
@@ -203,6 +207,8 @@ hr{
 	padding: 20px;
 	color: white;
 }
+
+
 
 
 
@@ -222,6 +228,7 @@ hr{
 	flex-direction: column;
 	width: 25%;
 	padding-left: 550px;
+	font-family: 'Lato', sans-serif;
 
 }
 #signup-button{
@@ -231,5 +238,18 @@ hr{
 	flex-direction: column;
 	width: 25%;
 	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+
+}
+
+footer{
+    
+    color: white;
+    padding: 20px;
+    left: 0;
+    text-align: center;
+    bottom: 0;
+    position: static;
+    font-family: 'Lato', sans-serif;
 
 }
